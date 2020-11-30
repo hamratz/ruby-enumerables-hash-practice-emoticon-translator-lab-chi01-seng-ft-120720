@@ -7,7 +7,7 @@ def load_library(path)
   final_hash = {}
   YAML.load_file(path).each do |key, value|
   binding.pry
-  
+end
   final_hash
 end
 
